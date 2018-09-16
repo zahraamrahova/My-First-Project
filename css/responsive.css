@@ -1,0 +1,96 @@
+.slicknav_menu /*ask Sattar why slicknav_menu */ {
+    display: none;
+}
+@media screen and (max-width:992px) {
+    #menu {
+        display: none;
+    }
+    .slicknav_menu{
+        display: inline-block;
+        position: fixed;
+        background: transparent;
+        z-index: 1000;
+        right: 0;
+        margin-top: 110px;
+    }
+    header {
+        margin-top: 110px;
+        background-color: #34495e;
+
+    }
+    .slider {
+        margin-top:-110px;
+    }
+    .slicknav_btn {
+        margin: 35px 30px 0 0;
+        background: orangered;
+    }
+    .slicknav_nav {
+        background: #34495e;
+        width: 200px;
+    }
+    .slicknav_nav li {
+        margin: 0;
+        padding: 0;
+        height: 3em;
+        line-height: 3em;
+        width: 200px;
+        border-bottom: 1px solid #2e4155;
+        border-top: 1px solid #3d5267;
+        text-align: center;
+    }
+    .slicknav_nav li a {
+        padding: 0;
+        margin: 0;
+        transition: all 0.5s ease-in;
+    }
+    .slicknav_nav li a:hover {
+        color: deepskyblue;
+        text-decoration: none;
+        background: none;
+    }
+}
+
+@media screen and (max-width:330px) {
+
+.slider a {
+    display: inline-block;
+    width: 100%;
+}
+.slider .button {
+    margin-top: 30px;
+}
+header a img {
+    width: 90px;
+
+}
+
+
+
+}
+@media screen and (max-width:385px)
+{
+    .inner-content img
+    {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:285px)
+{
+    .inner-content img
+    {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:732px)
+{
+    .team-social-network
+    {
+        padding-bottom: 55px;
+    
+    }
+}
+
+
